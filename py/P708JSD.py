@@ -29,7 +29,6 @@ try:
             asignaturas[contador][1]=int(nuevoValor)
 
     #salida del recorrido con los nuevos datos
-    contador= -1
     for x in asignaturas:
             print("En "+x[0]+" has sacado un "+str(x[1]))
 except Exception:
